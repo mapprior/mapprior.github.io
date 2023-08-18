@@ -145,17 +145,19 @@
   </div> -->
 
 
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-sm-10 col-sm-offset-1 text-center">
         <video id="garden-v1" width="600" playsinline="" autoplay="" loop="" muted=""
           poster="MapPrior_files/loading.gif">
           <source src="MapPrior_files/video/MapPrior.mp4" type="video/mp4">
-          <!-- <source src="MapPrior_files/video/L.mp4" type="video/mp4"> -->
+          <source src="MapPrior_files/video/L.mp4" type="video/mp4">
         </video>
       </div>
-    </div>
+    </div> -->
 
-
+    <center>
+      <img src="./MapPrior_files/images/teaser.png" class="img-responsive" alt="overview" width="80%">
+    </center>
 
     <div class="row">
       <div class="col-md-10 col-md-offset-1">
@@ -177,9 +179,7 @@
           At the time of submission, MapPrior outperforms the strongest competing method, with significantly improved MMD and ECE scores in camera- and LiDAR-based BEV perception.
           Furthermore, our method can be used to perpetually generate layouts with unconditional sampling. 
         </div>
-        <center>
-          <img src="./MapPrior_files/images/teaser.png" class="img-responsive" alt="overview" width="100%">
-        </center>
+        
       </div>
     </div>
 
@@ -199,7 +199,7 @@
         </p>
 
         <center>
-          <div class="video-compare-container" id="ours" style="width: 100%">
+          <div class="video-compare-container" id="ours" style="width: 50%">
             <video class="video" id="simulation_video" loop="" playsinline="" autoplay="" muted=""
               poster="MapPrior_files/loading.gif" src="MapPrior_files/ours/LiDAR_scene0.mp4"
               onplay="resizeAndPlay(this)">
@@ -305,7 +305,7 @@
         </div>
 
         <center>
-          <img src="./MapPrior_files/video/uncond_video.gif" class="img-responsive" alt="perpetual" width="80%"
+          <img src="./MapPrior_files/video/uncond_video.gif" class="img-responsive" alt="perpetual" width="50%"
             >
         </center>
       </div>
@@ -324,7 +324,7 @@ estimate into a discrete latent code using a generative encoder and generates va
 controlled synthesis. Finally, MapPrior decodes these samples into outputs with a decoder
         </div>
         <center>
-          <img src="./MapPrior_files/images/method.png" class="img-responsive" width="80%"
+          <img src="./MapPrior_files/images/method.png" class="img-responsive" width="120%"
             style="max-height: 450px;margin:auto;">
         </center>
       
