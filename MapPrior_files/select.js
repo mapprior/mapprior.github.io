@@ -145,9 +145,9 @@ function ChangeScene(idx){
     let container = video.parentNode
     video.src = "MapPrior_files/ours/"+ currentSim + '_' + currentScene + '.mp4';
 
-    container.style = "width: 100%; opacity: 0;"
+    container.style = "width: 60%; opacity: 0;"
     setTimeout(()=>{
-        container.style = "width: 100%; opacity: 1;"
+        container.style = "width: 60%; opacity: 1;"
         video.load();
     }, 1000)
 
